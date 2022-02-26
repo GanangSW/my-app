@@ -24,7 +24,9 @@
             v-for="([text,link],i) in items"
             :key="i"
             link
-            @click="$vuetify.goTo(link)">
+            @click="$vuetify.goTo(link)"
+            @click.stop="drawer=!drawer"
+        >
           <v-list-item-content>
             <v-list-item-title class="subtitle-1">
               {{ text }}

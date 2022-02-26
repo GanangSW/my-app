@@ -26,14 +26,14 @@
               </p>
             </v-col>
           </v-row>
-          <v-row align="center">
+          <v-row align="center" justify="center">
             <v-col v-scrollanimation cols="10" class="text-center mr-auto ml-auto">
               <p class="font-weight-bold text-h4 mt-10">
                 Vision and Missions
               </p>
             </v-col>
           </v-row>
-          <v-row align="center">
+          <v-row align="center" justify="center">
             <v-col v-scrollanimation lg="6" sm="6" class="d-none d-md-flex hidden-xs-only">
               <v-img
                   src="https://leap.digitalbisa.id/front/img/mission-1.jpeg"
@@ -41,8 +41,8 @@
                   max-width="250px"
               />
             </v-col>
-            <v-col v-scrollanimation lg="6" sm="6">
-              <v-subheader class="text-subtitle-1 font-weight-bold">#VISION</v-subheader>
+            <v-col v-scrollanimation lg="6" sm="6" class="text-center mr-auto ml-auto">
+              <v-subheader class="justify-center text-subtitle-1 font-weight-bold">#VISION</v-subheader>
               <h1 class="text-subtitle-1 font-weight-bold">
                 To Digitize the Nations.
               </h1>
@@ -57,9 +57,9 @@
               </p>
             </v-col>
           </v-row>
-          <v-row align="center">
-            <v-col v-scrollanimation lg="6" sm="6" class="text-right">
-              <v-subheader class="text-subtitle-1 font-weight-bold justify-end">#MISSIONS</v-subheader>
+          <v-row align="center" justify="center">
+            <v-col v-scrollanimation lg="6" sm="6" class="text-center mr-auto ml-auto">
+              <v-subheader class="text-subtitle-1 font-weight-bold justify-center">#MISSIONS</v-subheader>
               <h1 class="text-subtitle-1 font-weight-bold">
                 Growing Indonesia's Digital Ecosystem
               </h1>
